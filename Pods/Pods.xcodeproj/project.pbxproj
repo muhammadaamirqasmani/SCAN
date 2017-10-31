@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BA62F84376484205311CB1529EF990 /* IRLCameraMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACA15AAB6D8B17C5AAD61382FF7A598 /* IRLCameraMedia.xcassets */; };
+		0ACB1939451015F806D1A9CD83A6E7D3 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B15612E8B840440F4B9D962DB030B1B0 /* tr.lproj */; };
+		0AD55849FCF0CC652202245299D5A3EC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */; };
+		1F30602F514E8DEB707EDA6F1E20099E /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 647AFF7D9DDDDAB015926CBFDDE0316D /* pt.lproj */; };
+		201B2C27E2973D60B1456FE15E19448D /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3B921E7984661151751B6F96606B4084 /* ru.lproj */; };
+		22B44619E7162F8EEBCD852348D0A97A /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB4E97CACBE3A12946AAB897E1E81FA /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24AECF07249612A37E46509C2D662172 /* IRLCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BBB99316309B21A7916075788CCB52 /* IRLCamera.storyboard */; };
+		2582680B3D50A6CAFCC59FFD15768C34 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F92CB787C580636484806B012829 /* id.lproj */; };
+		26E9588309763A5C517D9C0E897E61B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */; };
+		34E9CC6D8C20EE0B1CAAC3B0DD42446B /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 664FA0A3074E30B648D21B1B2D2739B8 /* zh-Hans.lproj */; };
+		364EF306D7BF72BB7B9397B1C633BC44 /* IRLScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C743F3BAC0B8159D3BD59D3708A880 /* IRLScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385F3BBD512FF81876EFEA427E84EBB5 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC7847DED6CAB123D7B8700E6C6E43 /* TOCropViewController.m */; };
+		3ADA40268E40CA820E040AEB4202724A /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 914C66A2CD4AE6B94CCCD098696DE0F9 /* it.lproj */; };
+		3D6ACAF9ECDDFA2E83EF535DDA72FDD7 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4E97F0559D4DE60EE9C7F79BF39958CD /* Base.lproj */; };
+		44450A49A216D2205D65E827FB773F53 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C894DA42354F2DDFCBF4E304A28974A /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E1A92BDE3D2584006987AAD6082F33 /* CIImage+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E0AF3C443E9CA4DECC6F834C2F5E68 /* CIImage+Utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4891272B528E0502F186284DF28EAF87 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F6C68C3C8BFDAA94C3F0D897E03A7 /* UIImage+CropRotate.m */; };
+		4FB7D079E963D50AEA2027D9FA03277A /* Pods-SCAN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB954104C29ECD8827FE6B702867C114 /* Pods-SCAN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EF7798206F237DE296FCF1D88ED893 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CB6C901F62D5A30BAD45B6054C1BAEB8 /* ja.lproj */; };
+		516CE8B142C6FC59B75BDA01FB13DA63 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE947CF1D45122F182940A4EDEB36E3 /* TOCropViewControllerTransitioning.m */; };
+		52F7B822C18E5DE2965F25B81D850A00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		53789F4A887D8DB13127BC51643F2E52 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3325438E61F6E11121F9BE33C8D5235 /* TOCropView.m */; };
+		56C92F2858061A2EFED5EEC353D0C6DB /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 842A644FAD982EEA7E3362DE3EA35153 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A99DF502357F45CC373D35457601FF8 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0E36BFBF6E5E480DED3356A47EA07C /* TOCropToolbar.m */; };
+		5C559B0CA9094E72D919CA8A64CF6E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */; };
+		5CCA753F0E04DE4818DE597EF971D536 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA34981F6DA043E9A81A85C847B353 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8F241017D717E613110693F6770F48 /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84028A93F8A3A9FF3393F2A9340D15CE /* TOCropViewController-dummy.m */; };
+		638D8F5230C0E7FD2CEC400FFD228421 /* CIRectangleFeature+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EE323577E6F836F9C9D33F4F217C15 /* CIRectangleFeature+Utilities.m */; };
+		699F706B7171899B14FBC2763FCC0E97 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950904048DF9272F06D7F34CE50713D4 /* TOCropScrollView.m */; };
+		6DCDA1415A4203F8A0D174070007122F /* IRLDocumentScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D9775AB7FE08FE7A2C0E891BBB170D /* IRLDocumentScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745625ECB4EE85005908A4922E14A80B /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CE657BEEF8AA691B49598F278B10A081 /* de.lproj */; };
+		74D009C3AC22D411056A4B5210346F5F /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */; };
+		74E9314C796CE3612B006E732E779BF0 /* IRLDocumentScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534C48AC1076C9CB3D99889BFBD8BC5 /* IRLDocumentScanner-dummy.m */; };
+		771796942217665C1702DCE020EB2D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		7CA268D97D7514AC22D06BE7619482F7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */; };
+		7D905F462A6CC539108543F3A6DB1604 /* IRLCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AAA50EB3B9467756D6BFAAFCC148A5 /* IRLCameraView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		811482F9BD714A2EF819A8B70A2F73F5 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7154C166278675850447BFBB138F /* TOCropOverlayView.m */; };
+		83DA1FEFC7ADEDC44F214D7FDFF7820F /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FB6AAA42CA20074A3E5577F76D01AE3B /* zh-Hant.lproj */; };
+		852896F169BCED308D1A0D2F189748D9 /* Pods-SCAN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A2F5FF04DDD102C546BBACD83DE0D /* Pods-SCAN-dummy.m */; };
+		863A27E7A326756B2F74243D11BA31C3 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = F47B480B14D95B087DAE4C3CB42EA4D9 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A114E41EAB75F2E7DCF7E4B3693A509 /* IRLScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB2BCD4967928E29AE8A2DF1859541 /* IRLScannerViewController.m */; };
+		8BFE53547B82C6C062743D7447C56CCA /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4917B2A682FE2425A6F4B5504B715881 /* TOCropViewControllerBundle.bundle */; };
+		901522232A0664810D166B0B6E79B152 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B7BF3AB24A8D792A5B607F8CAA9B8AEF /* da.lproj */; };
+		91AF736ED717DDE1119BB7A55E1891BE /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E6B308A9A8FDEDE9EF3B0B05A7BEDA01 /* fr.lproj */; };
+		98B4A1D5BFAFCB2DEBAA71E2FAF070B3 /* CIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC693591043149F0C6E180E667A5E2D /* CIImage+Utilities.m */; };
+		990E39F3098DFB76E9C5DDCB0C731484 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FCF1DD605F2F4437FB25812EDD5128 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE87FE3909CA7377FB967AD00BCA7C0 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F9A32F7F0D96057C9F502D9C957B09 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9370BC87222B7485EA6D1D4A0705BF /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9567ADAFAA52F6C9E332F8DC7CCED522 /* nl.lproj */; };
+		B048F858ADF4140D05E02564383EE0DD /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 652B7D360C135EFE26AA404F059EB4E3 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1620C8C063B513CA492D0E25BEA4F63 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = A8587C67E51689C76338A88B1F5882DD /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31A166331D03E871E73A8429812DEC4 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E013FFED5C9F67279FC890926ACDF /* TOActivityCroppedImageProvider.m */; };
+		C204773FF6934369B6D439DAD037D531 /* TOCropViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC73DE3E24FF363C8610F29FACF1A7B /* TOCropViewController-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4632665CC1DA34DD73E92DD1CFFAC58 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A3A5DDA1A77B565D4ACB5E0D01B99FBA /* ar.lproj */; };
+		C4C61BE6F8BBB4C0E32F6317C024987D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		C504BBFC34829FD2F8FBD2F1C9B4EA97 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 80835194BB8CC8695C4F6497517BAB3E /* pl.lproj */; };
+		CD590E8BDC1ACEEFDEE852A33789A8A0 /* TOCropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2617DBF1B2C13F49DC5E37AFC31D66E9 /* TOCropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2D3E1B89F3C5512C3FA817E5984104 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 668D53CB140F7FAF5F972E322DA02047 /* en.lproj */; };
+		D63713C5C2EDE533FB659C0229115B7D /* CIRectangleFeature+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3258DDACDF7C94CE4E142A32E7C0D9E8 /* CIRectangleFeature+Utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D67D96080C84B5803B53F608ABAD4F9C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F64B6A1778FB3F1DB766936E3B17FD /* TOCroppedImageAttributes.m */; };
+		D870E86779CE09A366FC23EF8B48CC10 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D4B5DF7532D0340756CF55C4A1CC276E /* es.lproj */; };
+		DDCC5281D8D0229A2643D84BF0389E8E /* IRLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A36448D017D47FEF15DA3CF6D7550C /* IRLCameraView.m */; };
+		E13A433C4010AC647AF373DF5C390C72 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4B486D3390918AA70199B45C6A4AAE72 /* vi.lproj */; };
+		E2428249276B737BA9D416AF317C19E5 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E42A0AABB58AE52687817F4F1FC5D1EB /* ms.lproj */; };
+		F82A013B7EE58AE8B304EB1668980BF7 /* IRLDocumentScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1A7C2FD253BB8AB517619451917F50 /* IRLDocumentScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFD2FB617E69A641E7BA619D1D4E338 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DB934E2E6B1EFE76352627E9E051A /* ko.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B71479886A89EB692DC2DA96985EBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B004E5DA175B9922DB675D364D96A9AF;
+			remoteInfo = TOCropViewController;
+		};
+		6E766A07E4C3C27BC724A078F46F2D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888BB4F0E3E789333E27350B77270325;
+			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
+		};
+		9B28A3A086D1846700C3C3860AA709A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EBD6A5177EC5E09A92A1E96D6915AC4;
+			remoteInfo = IRLDocumentScanner;
+		};
+		F29CD049A811637BD9185F2821D02B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B004E5DA175B9922DB675D364D96A9AF;
+			remoteInfo = TOCropViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C5672E57A1BF456287E4455A1B2B48F /* TOCropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TOCropViewController.modulemap; sourceTree = "<group>"; };
+		0D9DB934E2E6B1EFE76352627E9E051A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = TOCropViewController/ko.lproj; sourceTree = "<group>"; };
+		0DC5F92CB787C580636484806B012829 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = TOCropViewController/id.lproj; sourceTree = "<group>"; };
+		12378C44828D5CB220F1E18B87289EB8 /* Pods-SCAN-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCAN-frameworks.sh"; sourceTree = "<group>"; };
+		13C743F3BAC0B8159D3BD59D3708A880 /* IRLScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLScannerViewController.h; path = Source/Public/IRLScannerViewController.h; sourceTree = "<group>"; };
+		1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		21D9775AB7FE08FE7A2C0E891BBB170D /* IRLDocumentScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRLDocumentScanner-umbrella.h"; sourceTree = "<group>"; };
+		24316D3B37570848E16D8FB37D4F7CE4 /* Pods_SCAN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCAN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2617DBF1B2C13F49DC5E37AFC31D66E9 /* TOCropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-umbrella.h"; sourceTree = "<group>"; };
+		26A36448D017D47FEF15DA3CF6D7550C /* IRLCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRLCameraView.m; path = Source/Private/IRLCameraView.m; sourceTree = "<group>"; };
+		2780BBAE78D3D7B1911FA71718CCA84F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1A7C2FD253BB8AB517619451917F50 /* IRLDocumentScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLDocumentScanner.h; path = Source/IRLDocumentScanner.h; sourceTree = "<group>"; };
+		2BE947CF1D45122F182940A4EDEB36E3 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = TOCropViewController/Models/TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		2C894DA42354F2DDFCBF4E304A28974A /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = TOCropViewController/Models/TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		2E4F9923D2D073A2631D8EB1EB5BAAA5 /* Pods-SCAN-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCAN-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3258DDACDF7C94CE4E142A32E7C0D9E8 /* CIRectangleFeature+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIRectangleFeature+Utilities.h"; path = "Source/Private/CIRectangleFeature+Utilities.h"; sourceTree = "<group>"; };
+		33DB2BCD4967928E29AE8A2DF1859541 /* IRLScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRLScannerViewController.m; path = Source/Public/IRLScannerViewController.m; sourceTree = "<group>"; };
+		37AAB9950E076571DD47F4FAD96C75DE /* Pods-SCAN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SCAN.modulemap"; sourceTree = "<group>"; };
+		3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B921E7984661151751B6F96606B4084 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = TOCropViewController/ru.lproj; sourceTree = "<group>"; };
+		42FCF1DD605F2F4437FB25812EDD5128 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = TOCropViewController/Views/TOCropScrollView.h; sourceTree = "<group>"; };
+		4917B2A682FE2425A6F4B5504B715881 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B486D3390918AA70199B45C6A4AAE72 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = TOCropViewController/vi.lproj; sourceTree = "<group>"; };
+		4E97F0559D4DE60EE9C7F79BF39958CD /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = TOCropViewController/Base.lproj; sourceTree = "<group>"; };
+		4FDA34981F6DA043E9A81A85C847B353 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = TOCropViewController/Views/TOCropOverlayView.h; sourceTree = "<group>"; };
+		50BBB99316309B21A7916075788CCB52 /* IRLCamera.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = IRLCamera.storyboard; sourceTree = "<group>"; };
+		5395CDCC90446397FC09A8C8BD6E08A2 /* IRLDocumentScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRLDocumentScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5534C48AC1076C9CB3D99889BFBD8BC5 /* IRLDocumentScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRLDocumentScanner-dummy.m"; sourceTree = "<group>"; };
+		5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DFC7847DED6CAB123D7B8700E6C6E43 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = TOCropViewController/TOCropViewController.m; sourceTree = "<group>"; };
+		625F203C01DA0DE4A530C76D35D3A8BD /* Pods-SCAN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCAN.debug.xcconfig"; sourceTree = "<group>"; };
+		62AAC3A1763C3790B2CAB24C1264976E /* IRLDocumentScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRLDocumentScanner.xcconfig; sourceTree = "<group>"; };
+		647AFF7D9DDDDAB015926CBFDDE0316D /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = TOCropViewController/pt.lproj; sourceTree = "<group>"; };
+		652B7D360C135EFE26AA404F059EB4E3 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = TOCropViewController/TOCropViewController.h; sourceTree = "<group>"; };
+		65D704098AFE20EB8C5B109FFF2461E7 /* TOCropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-prefix.pch"; sourceTree = "<group>"; };
+		664FA0A3074E30B648D21B1B2D2739B8 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "TOCropViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		668D53CB140F7FAF5F972E322DA02047 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TOCropViewController/en.lproj; sourceTree = "<group>"; };
+		67E0AF3C443E9CA4DECC6F834C2F5E68 /* CIImage+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIImage+Utilities.h"; path = "Source/Private/CIImage+Utilities.h"; sourceTree = "<group>"; };
+		7AC693591043149F0C6E180E667A5E2D /* CIImage+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIImage+Utilities.m"; path = "Source/Private/CIImage+Utilities.m"; sourceTree = "<group>"; };
+		80835194BB8CC8695C4F6497517BAB3E /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = TOCropViewController/pl.lproj; sourceTree = "<group>"; };
+		84028A93F8A3A9FF3393F2A9340D15CE /* TOCropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOCropViewController-dummy.m"; sourceTree = "<group>"; };
+		842A644FAD982EEA7E3362DE3EA35153 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "TOCropViewController/Models/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		84DC7154C166278675850447BFBB138F /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = TOCropViewController/Views/TOCropOverlayView.m; sourceTree = "<group>"; };
+		8E7E013FFED5C9F67279FC890926ACDF /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = TOCropViewController/Models/TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOCropViewController.xcconfig; sourceTree = "<group>"; };
+		914C66A2CD4AE6B94CCCD098696DE0F9 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = TOCropViewController/it.lproj; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950904048DF9272F06D7F34CE50713D4 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = TOCropViewController/Views/TOCropScrollView.m; sourceTree = "<group>"; };
+		9567ADAFAA52F6C9E332F8DC7CCED522 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = TOCropViewController/nl.lproj; sourceTree = "<group>"; };
+		95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		982A38676ACC88A7F6DF76DA3470B98A /* Pods-SCAN-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCAN-resources.sh"; sourceTree = "<group>"; };
+		9C4A2F5FF04DDD102C546BBACD83DE0D /* Pods-SCAN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCAN-dummy.m"; sourceTree = "<group>"; };
+		9E0E36BFBF6E5E480DED3356A47EA07C /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = TOCropViewController/Views/TOCropToolbar.m; sourceTree = "<group>"; };
+		A3A5DDA1A77B565D4ACB5E0D01B99FBA /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = TOCropViewController/ar.lproj; sourceTree = "<group>"; };
+		A634B69A9BF88D836945164B5EBA73C7 /* Pods-SCAN-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCAN-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7F9A32F7F0D96057C9F502D9C957B09 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = TOCropViewController/Models/TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		A8587C67E51689C76338A88B1F5882DD /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = TOCropViewController/Views/TOCropToolbar.h; sourceTree = "<group>"; };
+		ACB4E97CACBE3A12946AAB897E1E81FA /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = TOCropViewController/Views/TOCropView.h; sourceTree = "<group>"; };
+		B15612E8B840440F4B9D962DB030B1B0 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = TOCropViewController/tr.lproj; sourceTree = "<group>"; };
+		B7BF3AB24A8D792A5B607F8CAA9B8AEF /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = TOCropViewController/da.lproj; sourceTree = "<group>"; };
+		BACA15AAB6D8B17C5AAD61382FF7A598 /* IRLCameraMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = IRLCameraMedia.xcassets; sourceTree = "<group>"; };
+		BB954104C29ECD8827FE6B702867C114 /* Pods-SCAN-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCAN-umbrella.h"; sourceTree = "<group>"; };
+		BCC73DE3E24FF363C8610F29FACF1A7B /* TOCropViewController-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TOCropViewController-Bridging-Header.h"; path = "TOCropViewController/TOCropViewController-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF6F6C68C3C8BFDAA94C3F0D897E03A7 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "TOCropViewController/Models/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7EE323577E6F836F9C9D33F4F217C15 /* CIRectangleFeature+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIRectangleFeature+Utilities.m"; path = "Source/Private/CIRectangleFeature+Utilities.m"; sourceTree = "<group>"; };
+		C943CA444A532E95EBB2DD2B37FE6D99 /* IRLDocumentScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRLDocumentScanner-prefix.pch"; sourceTree = "<group>"; };
+		CB6C901F62D5A30BAD45B6054C1BAEB8 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = TOCropViewController/ja.lproj; sourceTree = "<group>"; };
+		CDD46CB6CABA0AD2FE336ED333B0521A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE657BEEF8AA691B49598F278B10A081 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = TOCropViewController/de.lproj; sourceTree = "<group>"; };
+		D2A1773EB48CF4D8CA19D266103DA35C /* Pods-SCAN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCAN.release.xcconfig"; sourceTree = "<group>"; };
+		D3325438E61F6E11121F9BE33C8D5235 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = TOCropViewController/Views/TOCropView.m; sourceTree = "<group>"; };
+		D4B5DF7532D0340756CF55C4A1CC276E /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TOCropViewController/es.lproj; sourceTree = "<group>"; };
+		DCCA1A274229440FDF3DD00A3640866F /* ResourceBundle-TOCropViewControllerBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-Info.plist"; sourceTree = "<group>"; };
+		E35465FFBEAEF6D0B4B4EAE2509B1C1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42A0AABB58AE52687817F4F1FC5D1EB /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = TOCropViewController/ms.lproj; sourceTree = "<group>"; };
+		E4901CA6BF36A9139A30DDFE8DEB77F1 /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F64B6A1778FB3F1DB766936E3B17FD /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = TOCropViewController/Models/TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		E6B308A9A8FDEDE9EF3B0B05A7BEDA01 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = TOCropViewController/fr.lproj; sourceTree = "<group>"; };
+		F47B480B14D95B087DAE4C3CB42EA4D9 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = TOCropViewController/Models/TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		F8AAA50EB3B9467756D6BFAAFCC148A5 /* IRLCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLCameraView.h; path = Source/Private/IRLCameraView.h; sourceTree = "<group>"; };
+		FB6AAA42CA20074A3E5577F76D01AE3B /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "TOCropViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		FD29A170A05D9475BCEDA84F6DC927DD /* IRLDocumentScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IRLDocumentScanner.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4346B3C51F8215CA7777952CE7F08716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D78BBEF7489579F447E928E746138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C61BE6F8BBB4C0E32F6317C024987D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC58D520AA25E0AA1CDDA2830EE95B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F7B822C18E5DE2965F25B81D850A00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D5B91F29A6393ADF8BD6EE7D9D1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E9588309763A5C517D9C0E897E61B0 /* AVFoundation.framework in Frameworks */,
+				7CA268D97D7514AC22D06BE7619482F7 /* CoreImage.framework in Frameworks */,
+				771796942217665C1702DCE020EB2D59 /* Foundation.framework in Frameworks */,
+				0AD55849FCF0CC652202245299D5A3EC /* GLKit.framework in Frameworks */,
+				74D009C3AC22D411056A4B5210346F5F /* TOCropViewController.framework in Frameworks */,
+				5C559B0CA9094E72D919CA8A64CF6E42 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159EC9A83F735EF704D1E16321890AD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50BBB99316309B21A7916075788CCB52 /* IRLCamera.storyboard */,
+				BACA15AAB6D8B17C5AAD61382FF7A598 /* IRLCameraMedia.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B90BC5FC395C6B2C1CB086CC4956B00 /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C894DA42354F2DDFCBF4E304A28974A /* TOActivityCroppedImageProvider.h */,
+				8E7E013FFED5C9F67279FC890926ACDF /* TOActivityCroppedImageProvider.m */,
+				4FDA34981F6DA043E9A81A85C847B353 /* TOCropOverlayView.h */,
+				84DC7154C166278675850447BFBB138F /* TOCropOverlayView.m */,
+				A7F9A32F7F0D96057C9F502D9C957B09 /* TOCroppedImageAttributes.h */,
+				E5F64B6A1778FB3F1DB766936E3B17FD /* TOCroppedImageAttributes.m */,
+				42FCF1DD605F2F4437FB25812EDD5128 /* TOCropScrollView.h */,
+				950904048DF9272F06D7F34CE50713D4 /* TOCropScrollView.m */,
+				A8587C67E51689C76338A88B1F5882DD /* TOCropToolbar.h */,
+				9E0E36BFBF6E5E480DED3356A47EA07C /* TOCropToolbar.m */,
+				ACB4E97CACBE3A12946AAB897E1E81FA /* TOCropView.h */,
+				D3325438E61F6E11121F9BE33C8D5235 /* TOCropView.m */,
+				652B7D360C135EFE26AA404F059EB4E3 /* TOCropViewController.h */,
+				5DFC7847DED6CAB123D7B8700E6C6E43 /* TOCropViewController.m */,
+				BCC73DE3E24FF363C8610F29FACF1A7B /* TOCropViewController-Bridging-Header.h */,
+				F47B480B14D95B087DAE4C3CB42EA4D9 /* TOCropViewControllerTransitioning.h */,
+				2BE947CF1D45122F182940A4EDEB36E3 /* TOCropViewControllerTransitioning.m */,
+				842A644FAD982EEA7E3362DE3EA35153 /* UIImage+CropRotate.h */,
+				BF6F6C68C3C8BFDAA94C3F0D897E03A7 /* UIImage+CropRotate.m */,
+				41EEB3AEF76BF0EA10B9E25B69442432 /* Resources */,
+				5F5B96A08CF61F87E968BB301168C09D /* Support Files */,
+			);
+			path = TOCropViewController;
+			sourceTree = "<group>";
+		};
+		41EEB3AEF76BF0EA10B9E25B69442432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3A5DDA1A77B565D4ACB5E0D01B99FBA /* ar.lproj */,
+				4E97F0559D4DE60EE9C7F79BF39958CD /* Base.lproj */,
+				B7BF3AB24A8D792A5B607F8CAA9B8AEF /* da.lproj */,
+				CE657BEEF8AA691B49598F278B10A081 /* de.lproj */,
+				668D53CB140F7FAF5F972E322DA02047 /* en.lproj */,
+				D4B5DF7532D0340756CF55C4A1CC276E /* es.lproj */,
+				E6B308A9A8FDEDE9EF3B0B05A7BEDA01 /* fr.lproj */,
+				0DC5F92CB787C580636484806B012829 /* id.lproj */,
+				914C66A2CD4AE6B94CCCD098696DE0F9 /* it.lproj */,
+				CB6C901F62D5A30BAD45B6054C1BAEB8 /* ja.lproj */,
+				0D9DB934E2E6B1EFE76352627E9E051A /* ko.lproj */,
+				E42A0AABB58AE52687817F4F1FC5D1EB /* ms.lproj */,
+				9567ADAFAA52F6C9E332F8DC7CCED522 /* nl.lproj */,
+				80835194BB8CC8695C4F6497517BAB3E /* pl.lproj */,
+				647AFF7D9DDDDAB015926CBFDDE0316D /* pt.lproj */,
+				3B921E7984661151751B6F96606B4084 /* ru.lproj */,
+				B15612E8B840440F4B9D962DB030B1B0 /* tr.lproj */,
+				4B486D3390918AA70199B45C6A4AAE72 /* vi.lproj */,
+				664FA0A3074E30B648D21B1B2D2739B8 /* zh-Hans.lproj */,
+				FB6AAA42CA20074A3E5577F76D01AE3B /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51626D9D8AA1FAF5A30FCD7E60199FD5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */,
+				95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */,
+				BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */,
+				5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */,
+				1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5687C28D312C36107D64F2BDFCC480B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5395CDCC90446397FC09A8C8BD6E08A2 /* IRLDocumentScanner.framework */,
+				24316D3B37570848E16D8FB37D4F7CE4 /* Pods_SCAN.framework */,
+				E4901CA6BF36A9139A30DDFE8DEB77F1 /* TOCropViewController.framework */,
+				4917B2A682FE2425A6F4B5504B715881 /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5B96A08CF61F87E968BB301168C09D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD46CB6CABA0AD2FE336ED333B0521A /* Info.plist */,
+				DCCA1A274229440FDF3DD00A3640866F /* ResourceBundle-TOCropViewControllerBundle-Info.plist */,
+				0C5672E57A1BF456287E4455A1B2B48F /* TOCropViewController.modulemap */,
+				9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */,
+				84028A93F8A3A9FF3393F2A9340D15CE /* TOCropViewController-dummy.m */,
+				65D704098AFE20EB8C5B109FFF2461E7 /* TOCropViewController-prefix.pch */,
+				2617DBF1B2C13F49DC5E37AFC31D66E9 /* TOCropViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOCropViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8A0E1FDEADE802CEBDCAA10CA39E897D /* Frameworks */,
+				E937CF23E0A05135B838418781553274 /* Pods */,
+				5687C28D312C36107D64F2BDFCC480B1 /* Products */,
+				E006BCE931036562478A6FC8AA4B7D29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8707FF64D5B554251C87ABADD8B2A6A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2780BBAE78D3D7B1911FA71718CCA84F /* Info.plist */,
+				FD29A170A05D9475BCEDA84F6DC927DD /* IRLDocumentScanner.modulemap */,
+				62AAC3A1763C3790B2CAB24C1264976E /* IRLDocumentScanner.xcconfig */,
+				5534C48AC1076C9CB3D99889BFBD8BC5 /* IRLDocumentScanner-dummy.m */,
+				C943CA444A532E95EBB2DD2B37FE6D99 /* IRLDocumentScanner-prefix.pch */,
+				21D9775AB7FE08FE7A2C0E891BBB170D /* IRLDocumentScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRLDocumentScanner";
+			sourceTree = "<group>";
+		};
+		8A0E1FDEADE802CEBDCAA10CA39E897D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */,
+				51626D9D8AA1FAF5A30FCD7E60199FD5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB75839048A8688B1A9C0CCF659FD6F /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				67E0AF3C443E9CA4DECC6F834C2F5E68 /* CIImage+Utilities.h */,
+				7AC693591043149F0C6E180E667A5E2D /* CIImage+Utilities.m */,
+				3258DDACDF7C94CE4E142A32E7C0D9E8 /* CIRectangleFeature+Utilities.h */,
+				C7EE323577E6F836F9C9D33F4F217C15 /* CIRectangleFeature+Utilities.m */,
+				F8AAA50EB3B9467756D6BFAAFCC148A5 /* IRLCameraView.h */,
+				26A36448D017D47FEF15DA3CF6D7550C /* IRLCameraView.m */,
+				2B1A7C2FD253BB8AB517619451917F50 /* IRLDocumentScanner.h */,
+				13C743F3BAC0B8159D3BD59D3708A880 /* IRLScannerViewController.h */,
+				33DB2BCD4967928E29AE8A2DF1859541 /* IRLScannerViewController.m */,
+				159EC9A83F735EF704D1E16321890AD2 /* Resources */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		DEECF558E411EF15416A4E7D1F9D818E /* Pods-SCAN */ = {
+			isa = PBXGroup;
+			children = (
+				E35465FFBEAEF6D0B4B4EAE2509B1C1D /* Info.plist */,
+				37AAB9950E076571DD47F4FAD96C75DE /* Pods-SCAN.modulemap */,
+				2E4F9923D2D073A2631D8EB1EB5BAAA5 /* Pods-SCAN-acknowledgements.markdown */,
+				A634B69A9BF88D836945164B5EBA73C7 /* Pods-SCAN-acknowledgements.plist */,
+				9C4A2F5FF04DDD102C546BBACD83DE0D /* Pods-SCAN-dummy.m */,
+				12378C44828D5CB220F1E18B87289EB8 /* Pods-SCAN-frameworks.sh */,
+				982A38676ACC88A7F6DF76DA3470B98A /* Pods-SCAN-resources.sh */,
+				BB954104C29ECD8827FE6B702867C114 /* Pods-SCAN-umbrella.h */,
+				625F203C01DA0DE4A530C76D35D3A8BD /* Pods-SCAN.debug.xcconfig */,
+				D2A1773EB48CF4D8CA19D266103DA35C /* Pods-SCAN.release.xcconfig */,
+			);
+			name = "Pods-SCAN";
+			path = "Target Support Files/Pods-SCAN";
+			sourceTree = "<group>";
+		};
+		E006BCE931036562478A6FC8AA4B7D29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEECF558E411EF15416A4E7D1F9D818E /* Pods-SCAN */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E937CF23E0A05135B838418781553274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49CFB49C3E04DE0BE33C13A1BCE4102 /* IRLDocumentScanner */,
+				2B90BC5FC395C6B2C1CB086CC4956B00 /* TOCropViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49CFB49C3E04DE0BE33C13A1BCE4102 /* IRLDocumentScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DBB75839048A8688B1A9C0CCF659FD6F /* Default */,
+				8707FF64D5B554251C87ABADD8B2A6A8 /* Support Files */,
+			);
+			path = IRLDocumentScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DEDF7C401EBE9B90C924D77B8CB9652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB7D079E963D50AEA2027D9FA03277A /* Pods-SCAN-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E14F04808F29BFFDDC6FAED88648857 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44450A49A216D2205D65E827FB773F53 /* TOActivityCroppedImageProvider.h in Headers */,
+				5CCA753F0E04DE4818DE597EF971D536 /* TOCropOverlayView.h in Headers */,
+				9AE87FE3909CA7377FB967AD00BCA7C0 /* TOCroppedImageAttributes.h in Headers */,
+				990E39F3098DFB76E9C5DDCB0C731484 /* TOCropScrollView.h in Headers */,
+				B1620C8C063B513CA492D0E25BEA4F63 /* TOCropToolbar.h in Headers */,
+				22B44619E7162F8EEBCD852348D0A97A /* TOCropView.h in Headers */,
+				C204773FF6934369B6D439DAD037D531 /* TOCropViewController-Bridging-Header.h in Headers */,
+				CD590E8BDC1ACEEFDEE852A33789A8A0 /* TOCropViewController-umbrella.h in Headers */,
+				B048F858ADF4140D05E02564383EE0DD /* TOCropViewController.h in Headers */,
+				863A27E7A326756B2F74243D11BA31C3 /* TOCropViewControllerTransitioning.h in Headers */,
+				56C92F2858061A2EFED5EEC353D0C6DB /* UIImage+CropRotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2CF0080D4B15A98928979156C98383 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E1A92BDE3D2584006987AAD6082F33 /* CIImage+Utilities.h in Headers */,
+				D63713C5C2EDE533FB659C0229115B7D /* CIRectangleFeature+Utilities.h in Headers */,
+				7D905F462A6CC539108543F3A6DB1604 /* IRLCameraView.h in Headers */,
+				6DCDA1415A4203F8A0D174070007122F /* IRLDocumentScanner-umbrella.h in Headers */,
+				F82A013B7EE58AE8B304EB1668980BF7 /* IRLDocumentScanner.h in Headers */,
+				364EF306D7BF72BB7B9397B1C633BC44 /* IRLScannerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		888BB4F0E3E789333E27350B77270325 /* TOCropViewController-TOCropViewControllerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193F6B171F07E026EBBAFF1FEC25349B /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
+			buildPhases = (
+				77CAD9D60371623FD56D77E8F17D085C /* Sources */,
+				4346B3C51F8215CA7777952CE7F08716 /* Frameworks */,
+				1F02CA0847FE692077B0641AF9A2DFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			productName = "TOCropViewController-TOCropViewControllerBundle";
+			productReference = 4917B2A682FE2425A6F4B5504B715881 /* TOCropViewControllerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9EBD6A5177EC5E09A92A1E96D6915AC4 /* IRLDocumentScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BF9253C9F699F611EE3A7B03E2340D /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */;
+			buildPhases = (
+				39E75FBB65CB359202232483D14A9C9A /* Sources */,
+				F7D5B91F29A6393ADF8BD6EE7D9D1141 /* Frameworks */,
+				DF2CF0080D4B15A98928979156C98383 /* Headers */,
+				72851A3F8D57D256F3DDF6E902E52CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8A4D5AFD5586D1D1CE3F7D1398A708 /* PBXTargetDependency */,
+			);
+			name = IRLDocumentScanner;
+			productName = IRLDocumentScanner;
+			productReference = 5395CDCC90446397FC09A8C8BD6E08A2 /* IRLDocumentScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B004E5DA175B9922DB675D364D96A9AF /* TOCropViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655D11217D73AB80145A72E78CB596F0 /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
+			buildPhases = (
+				8CF2EB618D1A7F59F719996CD33DBEF0 /* Sources */,
+				4F1D78BBEF7489579F447E928E746138 /* Frameworks */,
+				E921B51BDA647B6F9576B5EBD5137C9A /* Resources */,
+				9E14F04808F29BFFDDC6FAED88648857 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE22BB158D8AE2BFFABD7F64278FB165 /* PBXTargetDependency */,
+			);
+			name = TOCropViewController;
+			productName = TOCropViewController;
+			productReference = E4901CA6BF36A9139A30DDFE8DEB77F1 /* TOCropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF0D04F6CB05D9C475AB74B58A3555B8 /* Pods-SCAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988DE10D308B9D751804075C243C70D4 /* Build configuration list for PBXNativeTarget "Pods-SCAN" */;
+			buildPhases = (
+				EB9827575C53E200465DD5E9FD5F566B /* Sources */,
+				DC58D520AA25E0AA1CDDA2830EE95B0D /* Frameworks */,
+				9DEDF7C401EBE9B90C924D77B8CB9652 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359E53ABB84859B6535CFD7F5E54BB52 /* PBXTargetDependency */,
+				2B4404066456B5A3A8DEB88EBFB303F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SCAN";
+			productName = "Pods-SCAN";
+			productReference = 24316D3B37570848E16D8FB37D4F7CE4 /* Pods_SCAN.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5687C28D312C36107D64F2BDFCC480B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBD6A5177EC5E09A92A1E96D6915AC4 /* IRLDocumentScanner */,
+				CF0D04F6CB05D9C475AB74B58A3555B8 /* Pods-SCAN */,
+				B004E5DA175B9922DB675D364D96A9AF /* TOCropViewController */,
+				888BB4F0E3E789333E27350B77270325 /* TOCropViewController-TOCropViewControllerBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F02CA0847FE692077B0641AF9A2DFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4632665CC1DA34DD73E92DD1CFFAC58 /* ar.lproj in Resources */,
+				3D6ACAF9ECDDFA2E83EF535DDA72FDD7 /* Base.lproj in Resources */,
+				901522232A0664810D166B0B6E79B152 /* da.lproj in Resources */,
+				745625ECB4EE85005908A4922E14A80B /* de.lproj in Resources */,
+				CF2D3E1B89F3C5512C3FA817E5984104 /* en.lproj in Resources */,
+				D870E86779CE09A366FC23EF8B48CC10 /* es.lproj in Resources */,
+				91AF736ED717DDE1119BB7A55E1891BE /* fr.lproj in Resources */,
+				2582680B3D50A6CAFCC59FFD15768C34 /* id.lproj in Resources */,
+				3ADA40268E40CA820E040AEB4202724A /* it.lproj in Resources */,
+				50EF7798206F237DE296FCF1D88ED893 /* ja.lproj in Resources */,
+				FCFD2FB617E69A641E7BA619D1D4E338 /* ko.lproj in Resources */,
+				E2428249276B737BA9D416AF317C19E5 /* ms.lproj in Resources */,
+				9F9370BC87222B7485EA6D1D4A0705BF /* nl.lproj in Resources */,
+				C504BBFC34829FD2F8FBD2F1C9B4EA97 /* pl.lproj in Resources */,
+				1F30602F514E8DEB707EDA6F1E20099E /* pt.lproj in Resources */,
+				201B2C27E2973D60B1456FE15E19448D /* ru.lproj in Resources */,
+				0ACB1939451015F806D1A9CD83A6E7D3 /* tr.lproj in Resources */,
+				E13A433C4010AC647AF373DF5C390C72 /* vi.lproj in Resources */,
+				34E9CC6D8C20EE0B1CAAC3B0DD42446B /* zh-Hans.lproj in Resources */,
+				83DA1FEFC7ADEDC44F214D7FDFF7820F /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72851A3F8D57D256F3DDF6E902E52CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AECF07249612A37E46509C2D662172 /* IRLCamera.storyboard in Resources */,
+				09BA62F84376484205311CB1529EF990 /* IRLCameraMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E921B51BDA647B6F9576B5EBD5137C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE53547B82C6C062743D7447C56CCA /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E75FBB65CB359202232483D14A9C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B4A1D5BFAFCB2DEBAA71E2FAF070B3 /* CIImage+Utilities.m in Sources */,
+				638D8F5230C0E7FD2CEC400FFD228421 /* CIRectangleFeature+Utilities.m in Sources */,
+				DDCC5281D8D0229A2643D84BF0389E8E /* IRLCameraView.m in Sources */,
+				74E9314C796CE3612B006E732E779BF0 /* IRLDocumentScanner-dummy.m in Sources */,
+				8A114E41EAB75F2E7DCF7E4B3693A509 /* IRLScannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CAD9D60371623FD56D77E8F17D085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF2EB618D1A7F59F719996CD33DBEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A166331D03E871E73A8429812DEC4 /* TOActivityCroppedImageProvider.m in Sources */,
+				811482F9BD714A2EF819A8B70A2F73F5 /* TOCropOverlayView.m in Sources */,
+				D67D96080C84B5803B53F608ABAD4F9C /* TOCroppedImageAttributes.m in Sources */,
+				699F706B7171899B14FBC2763FCC0E97 /* TOCropScrollView.m in Sources */,
+				5A99DF502357F45CC373D35457601FF8 /* TOCropToolbar.m in Sources */,
+				53789F4A887D8DB13127BC51643F2E52 /* TOCropView.m in Sources */,
+				5F8F241017D717E613110693F6770F48 /* TOCropViewController-dummy.m in Sources */,
+				385F3BBD512FF81876EFEA427E84EBB5 /* TOCropViewController.m in Sources */,
+				516CE8B142C6FC59B75BDA01FB13DA63 /* TOCropViewControllerTransitioning.m in Sources */,
+				4891272B528E0502F186284DF28EAF87 /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9827575C53E200465DD5E9FD5F566B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852896F169BCED308D1A0D2F189748D9 /* Pods-SCAN-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4404066456B5A3A8DEB88EBFB303F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = B004E5DA175B9922DB675D364D96A9AF /* TOCropViewController */;
+			targetProxy = F29CD049A811637BD9185F2821D02B10 /* PBXContainerItemProxy */;
+		};
+		359E53ABB84859B6535CFD7F5E54BB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRLDocumentScanner;
+			target = 9EBD6A5177EC5E09A92A1E96D6915AC4 /* IRLDocumentScanner */;
+			targetProxy = 9B28A3A086D1846700C3C3860AA709A8 /* PBXContainerItemProxy */;
+		};
+		CE22BB158D8AE2BFFABD7F64278FB165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			target = 888BB4F0E3E789333E27350B77270325 /* TOCropViewController-TOCropViewControllerBundle */;
+			targetProxy = 6E766A07E4C3C27BC724A078F46F2D27 /* PBXContainerItemProxy */;
+		};
+		FA8A4D5AFD5586D1D1CE3F7D1398A708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = B004E5DA175B9922DB675D364D96A9AF /* TOCropViewController */;
+			targetProxy = 1B71479886A89EB692DC2DA96985EBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1901E4F2755EC9D4EC428683FE694111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AAC3A1763C3790B2CAB24C1264976E /* IRLDocumentScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRLDocumentScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IRLDocumentScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B466D0266260D2DB9C72EBA2485F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625F203C01DA0DE4A530C76D35D3A8BD /* Pods-SCAN.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SCAN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCAN/Pods-SCAN.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCAN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		503546AFDD174A9DC4D0D155C7FF74A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		66DFBEE8F3480AD29877E899EF2C86E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B7A27E31F6F69C0F5885BE4B7478972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A61CC40FBF89DB58EBE9A1321D9F5708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AAC3A1763C3790B2CAB24C1264976E /* IRLDocumentScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRLDocumentScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IRLDocumentScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A839C8D26023123FFEDB2A5E16664CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A1773EB48CF4D8CA19D266103DA35C /* Pods-SCAN.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SCAN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCAN/Pods-SCAN.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCAN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E50FB8B5FFB84E338CE56D848509AB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9061B620A519CFC480966C73F16610DB /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193F6B171F07E026EBBAFF1FEC25349B /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503546AFDD174A9DC4D0D155C7FF74A9 /* Debug */,
+				6B7A27E31F6F69C0F5885BE4B7478972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BF9253C9F699F611EE3A7B03E2340D /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1901E4F2755EC9D4EC428683FE694111 /* Debug */,
+				A61CC40FBF89DB58EBE9A1321D9F5708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655D11217D73AB80145A72E78CB596F0 /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50FB8B5FFB84E338CE56D848509AB80 /* Debug */,
+				66DFBEE8F3480AD29877E899EF2C86E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988DE10D308B9D751804075C243C70D4 /* Build configuration list for PBXNativeTarget "Pods-SCAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B466D0266260D2DB9C72EBA2485F0C /* Debug */,
+				A839C8D26023123FFEDB2A5E16664CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
